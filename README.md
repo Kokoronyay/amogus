@@ -1,2 +1,1 @@
-# amogus
-hfosdhfoashfoihasoag
+# read pls
