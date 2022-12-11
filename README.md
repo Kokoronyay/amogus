@@ -8,4 +8,4 @@
 - 4 stars: Elf, The Christmas Tree, Gingerbread House, Gingerbread Man
 - 3 stars: Christmas Stockings, Candy Cane, Poinsettias, Wreath, Ornaments. Mistletoe, Yule Log, Holly
 - Extra stories: Colors of Christmas (Red and Green)
-1. Stories for gacha items. EDUCATION IS KEYYYYYYYY. Tell them about how those things started being used and became popular
+3. Stories for gacha items. EDUCATION IS KEYYYYYYYY. Tell them about how those things started being used and became popular
