@@ -1,0 +1,205 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Montserrat, Roboto;
+	line-height: 1.5;
+}
+:root{
+	--red:#C21010;
+	--lightred:#E64848;
+	--orange:#FD5E53;
+	--green:#21BF73;
+	--lightgreen:#B0EACD;
+}
+html,body{
+	height:100%;
+}
+
+
+
+/* navbar */
+#navbar{
+	box-sizing: border-box;
+	height:40px;
+	background-color: var(--red);
+}
+#logo{
+	max-height:45px;
+	padding:0;
+}
+#allnavbarItems{
+	display:flex;
+	justify-content: space-around;
+	font-size: 18px;
+}
+#logocontainer{
+	display: flex;
+	justify-content: center;
+	width:50%;
+}
+#navbarlinks{
+	display:flex;
+	justify-content: space-around;
+	width:50%;
+	padding-top:6px;
+	font-weight: bold;
+}
+#navbarlinks li{
+	display:inline;
+}
+li{
+	list-style-type: none;
+}
+li a{
+	text-decoration-line: none;
+	color:white;
+}
+li a:hover{
+	color:var(--green);
+	transition-duration: 0.2s;
+}
+#titlecontainer{
+	display: flex;
+}
+.title{
+	height:30px;
+	width:49%;
+	text-align: center;
+}
+.title b{
+	display:inline;
+	vertical-align:middle;
+}
+#storytitle{
+	background-color: var(--lightgreen);
+	width:51%
+}
+
+
+
+/* Main */
+#maincontentcontainer{
+	display:flex;
+	height:calc(100% - 70px - 40px);
+}
+#storyholder{
+	background-color: var(--green);
+	width:51%;
+	overflow-y: scroll;
+	padding: 5px 5px 5px 10px;
+}
+#story{
+	font-size:20px;
+}
+img{
+	border-radius: 10px;
+}
+#itemholder{
+	background-color: var(--lightred);
+	width:49%;	
+}
+#itemcontainer{
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	overflow-wrap: anywhere;
+}
+#creditscontainer{
+	position: absolute;
+	bottom:40px;
+	left:52%;
+}
+#itemtogglebutton{
+	position:absolute;
+	top:80px;
+	right:10px;
+	background-color: var(--green);
+	border:0;
+	color:black;
+}
+#itemtogglebutton:hover{
+	transition-duration: 0.2s;
+	color: white
+}
+#item{
+	max-width:90%;
+	max-height: 70%;
+}
+#itemCaption{
+	color:white;
+}
+
+
+
+/* Offcanvas */
+#offcanvasExample{
+	width:50%;
+	background-color: #44C662;
+}
+#offcanvas-itemcontainer{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px 15px;
+}
+.item-and-name{
+	display: flex;
+	flex-flow: column;
+}
+.item{
+	max-height:150px;
+	max-width:150px;
+}
+.itemname{
+	display: block;
+	text-align: center;
+}
+
+/* Footer */
+footer{
+	position: relative;
+	width:100%;
+	height:40px;
+}
+footer div{
+	background-color: #CFE8A9
+}
+@media screen and (max-width: 768px) {
+	#itemholder{
+		display:none
+	}
+	#itemtitle{
+		display:none;
+	}
+	#storyholder{
+		width:100%
+	}
+	#storytitle{
+		width:100%;
+	}
+	#itemtogglebutton{
+		background-color: var(--lightred);
+		top:40px;
+	}
+	#offcanvasExample{
+		width:100%;
+		transition-duration:0.2s ease-in-out;
+	}
+	#logocontainer{
+		width:10%;
+	}
+	#navbarlinks{
+		width:90%
+	}
+}
+
+
+
+
+/* easter egg */
+#stickbug{
+	width:150px;
+	height:150px;
+}
